@@ -1,0 +1,15 @@
+PROJECT_ROOT = "absolute/path/to/your/dir"
+
+LOG_DIR = logs
+DATASET_DIR = Data
+MODEL_DIR = model_dir
+
+Data_name = heart.csv
+LOG_NAME = app.log
+MODEL_NAME = HeartDiseasePrediction.joblib
+
+TARGET_COL = target
+TEST_SIZE = 0.15
+RANDOM_STATE = 42
+
+APP_URL = http://127.0.0.1:8000/predict_heart_disease
