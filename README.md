@@ -4,8 +4,9 @@
 # Heart Disease Prediction
 
 > [!IMPORTANT] 
-> This is just a Machine learning project it will not replace the real diagnosis of a professional doctor.
+> This project is for educational purposes only
 >
+> 
 
 ## #1 Problem Statement
   This is a Classification task about heart disease prediction, 1 means the person have the disease and 0 mean he/she Do not have any signs of the disease
