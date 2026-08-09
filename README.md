@@ -21,3 +21,7 @@ This Dataset is available online, and you can find it here with the name of `hea
 ## #8 Training The best model
 ## #9 Model Evaluation
 ## #10 Deployment
+I used FastAPI + Streamlit to make this deployment you can find the final app below:
+
+
+[Streamlit App](https://heartdiseaseprediction-rjb4fgd3rm3tncn7uetrfv.streamlit.app/)
