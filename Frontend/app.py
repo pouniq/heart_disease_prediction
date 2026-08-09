@@ -1,11 +1,8 @@
-import os
 import requests
 import streamlit as st
-from dotenv import load_dotenv
 
-load_dotenv()
-API_URL = os.getenv('API_URL')
-print(API_URL)
+API_URL = st.secrets["API_URL"]
+
 st.set_page_config(
     page_title= 'Heart Disease Prediction',
     page_icon= '♥️',
@@ -69,7 +66,7 @@ if st.button("Predict"):
         
         st.metric(
             label='Heart Disease Probability',
-            value=f"{probability:.2f} %"
+            value=f"{probability * 100:.2f} %"
             
         )
         
