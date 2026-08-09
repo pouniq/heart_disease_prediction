@@ -10,9 +10,9 @@ from joblib import load
 load_dotenv()
 
 
-PROJECT_ROOT = Path(os.getenv("PROJECT_ROOT")).resolve()
+PROJECT_ROOT = Path(__file__).resolve().parent.parent 
 LOG_PATH = PROJECT_ROOT / os.getenv("LOG_DIR") / os.getenv("LOG_NAME")
-MODEL_PATH = PROJECT_ROOT / os.getenv("MODEL_DIR") / os.getenv("MODEL_NAME")
+MODEL_PATH = PROJECT_ROOT / os.getenv("MODEL_DIR") / "HeartDiseasePrediction.joblib"
 DATASET_PATH = (
     PROJECT_ROOT / os.getenv("DATASET_DIR") / os.getenv("DATASET_NAME")
 )
