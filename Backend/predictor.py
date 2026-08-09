@@ -3,18 +3,16 @@ import logging
 from pathlib import Path
 
 import pandas as pd
-from dotenv import load_dotenv
 from joblib import load
 
 # load .env content
-load_dotenv()
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent 
-LOG_PATH = PROJECT_ROOT / os.getenv("LOG_DIR") / os.getenv("LOG_NAME")
-MODEL_PATH = PROJECT_ROOT / os.getenv("MODEL_DIR") / "HeartDiseasePrediction.joblib"
+LOG_PATH = PROJECT_ROOT / "logs" / "app.log"
+MODEL_PATH = PROJECT_ROOT / "model_dir" / "HeartDiseasePrediction.joblib"
 DATASET_PATH = (
-    PROJECT_ROOT / os.getenv("DATASET_DIR") / os.getenv("DATASET_NAME")
+    PROJECT_ROOT / "Data" / "heart.csv"
 )
 
 logging.basicConfig(
