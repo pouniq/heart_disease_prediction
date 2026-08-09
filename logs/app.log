@@ -1,0 +1,31 @@
+2026-08-09 17:05:54,119 | INFO | Dataset loaded with shape of (1025, 14)
+2026-08-09 17:11:13,605 | INFO | Dataset loaded with shape of (1025, 14)
+2026-08-09 17:11:13,610 | INFO | dataset splited with shapes of 
+ train: (869, 13), (869,) 
+ test (156, 13), (156,) 
+2026-08-09 17:25:26,860 | INFO | Dataset loaded with shape of (1025, 14)
+2026-08-09 17:25:26,867 | INFO | dataset splited with shapes of 
+ train: (869, 13), (869,) 
+ test (156, 13), (156,) 
+2026-08-09 17:25:27,260 | INFO | Model Training is DONE
+2026-08-09 17:27:50,542 | INFO | Dataset loaded with shape of (1025, 14)
+2026-08-09 17:27:50,548 | INFO | dataset splited with shapes of 
+ train: (869, 13), (869,) 
+ test (156, 13), (156,) 
+2026-08-09 17:27:50,914 | INFO | Model Training is DONE
+2026-08-09 17:27:51,010 | INFO | Model Saved to /Users/pouniq/HeartDiseasePrediction/model_dir/HeartDiseasePrediction.joblib
+2026-08-09 17:27:51,010 | INFO | Model Training Completed
+2026-08-09 17:47:36,417 | INFO | Dataset loaded with shape of (1025, 14)
+2026-08-09 17:47:36,423 | INFO | dataset splited with shapes of 
+ train: (869, 13), (869,) 
+ test (156, 13), (156,) 
+2026-08-09 17:47:36,788 | INFO | Model Training is DONE
+2026-08-09 17:47:36,883 | INFO | Model Saved to /Users/pouniq/HeartDiseasePrediction/model_dir/HeartDiseasePrediction.joblib
+2026-08-09 17:47:36,883 | INFO | Model Training Completed
+2026-08-09 17:47:50,193 | INFO | Model Loaded successfully.
+2026-08-09 17:53:41,434 | INFO | Model Loaded successfully.
+2026-08-09 17:53:49,503 | INFO | Model Loaded successfully.
+2026-08-09 18:06:05,908 | INFO | Model Loaded successfully.
+2026-08-09 18:09:32,717 | INFO | Model Loaded successfully.
+2026-08-09 18:19:03,553 | INFO | Model Loaded successfully.
+2026-08-09 18:19:06,719 | INFO | model predicted: 1 and w/ probability of 0.6760733499724676
